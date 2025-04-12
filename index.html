@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TET camps | 2025</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    function toggleArticle(id) {
+      const content = document.getElementById(id);
+      const icon = document.getElementById("icon-" + id);
+      const isHidden = content.classList.contains("hidden");
+      content.classList.toggle("hidden", !isHidden);
+      content.classList.toggle("visible", isHidden);
+      icon.textContent = isHidden ? "▲" : "▼";
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="07_02_00.png" alt="TET Camps Logo" class="logo-img" />
+      <h1>TET camps | 2025</h1>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>A táborról</h2>
+    <div class="about-block">
+      <p><strong>A TET camps</strong> idén nyáron <span class="highlight">IT témában</span> szervez közösségi (napközben: ~9:00-17:00) tábort a <span class="highlight">9-12-es korosztálynak</span> Szegeden. Az <span class="highlight">5 napos program</span> során a résztvevők <span class="highlight">új barátokat</span>, élményeket és nem utolsó sorban <span class="highlight">tudást is szereznek</span>, az utolsó napokban <span class="highlight">Digitális Kultúra érettségi feladatok megoldásáig</span> jutunk el.</p>
+    </div>
+    <div class="about-block">
+      <p><strong>Oktató</strong>nk és szervező, <strong>Kalocsai Balázs</strong>, a <span class="highlight">Budapesti Corvinus Egyetem hallgatója</span>, garantálja a <span class="highlight">szakmai minőséget</span> és felkészültséget. Egy jó hangulatú fiatalos környezetben, programokkal és <span class="highlight">élményekkel tarkított tudásátadás</span> során szerezhetik meg a résztvevők a <span class="highlight">programozás</span> (python nyelven), Microsoft <span class="highlight">Excel</span> kezelés képességeit.</p>
+    </div>
+	<div class="about-block">
+      <p><strong>Mit hozz magagddal:</strong>
+			<ul>
+				<li><span class = "highlight">Laptop:</span> töltővel(!) (<strong>lehetőleg Windows</strong> operációs rendszerrel)*</li>
+				<li><span class = "highlight">Táska:</span> kulacs, fejfedő</li>
+				<li><span class = "highlight">Jókedv és nyitottság! :)</span></li>
+			</ul>
+	  </p>
+    </div>
+	<div class="about-block">
+      <p><strong>Helyszín:</strong> <span class="highlight">6723 Szeged, Iglói utca 1.</span></p>
+    </div
+	<div class= "about-block">
+		<p>*(Apple) MacOS rendszeren is működik, egyéb esetben/ha nem megoldható, kérjük jelezzék a "Jelentkezés!" gomb alatt található jelentkezési felületen, a "Laptop" szekcióban, megteszünk mindent, ezen ne menjen el egy király program :) )</p>
+	</div>
+  </section>
+
+  <section id="contact">
+    <h2>Elérhetőségek</h2>
+    <div class="contact-container">
+      <div class="contact-item"><span class="icon">✉</span> <strong>tetcamps@gmail.com</strong></div>
+      <div class="contact-item"><span class="icon">☎</span> <strong>+36-30-782-4631</strong></div>
+      <div class="contact-item"><a href="https://www.facebook.com/profile.php?id=61574915921754"><span class="icon">ⓕ Facebook</span></a></div>
+      <div class="contact-item"><a href="https://www.instagram.com/tetcamps"><span class="icon">📸 Instagram</span></a></div>
+      <div class="contact-item"><a href="https://www.youtube.com/channel/UCOqFwbxm9pq6LawoRsp2asw"><span class="icon">▶ YouTube</span></a></div>
+    </div>
+  </section>
+
+  <section id="summary">
+    <h2>Összességében</h2>
+    <div class="summary-grid">
+      <div class="bubble">5 nap</div>
+      <div class="bubble">Iglói u. 1.</div>
+      <div class="bubble">Új barátok</div>
+      <div class="bubble">Programozás</div>
+      <div class="bubble">Excel</div>
+      <div class="bubble">Küldetések</div>
+      <div class="bubble">Játék</div>
+      <div class="bubble">Ne maradj le!</div>
+      <div class="bubble">Rejtvények</div>
+      <div class="bubble">9:00 - 17:00</div>
+      <div class="bubble">Csapatmunka</div>
+      <div class="bubble">Érettségi szintig</div>
+    </div>
+  </section>
+
+  <section id="camps">
+    <h2>Táborok adatai és Jelentkezés</h2>
+    <table>
+      <tr>
+        <th>IT-tábor</th>
+        <th>Időpont</th>
+        <th>Részvételi díj</th>
+        <th>Szabad helyek száma*</th>
+      </tr>
+      <tr><td>IT-tábor</td><td>Június 30 - július 4</td><td>59 990 Ft</td><td>8</td></tr>
+      <tr><td>IT-tábor</td><td>Július 14-18</td><td>59 990 Ft</td><td>8</td></tr>
+      <tr><td>IT-tábor</td><td>Augusztus 4-8</td><td>59 990 Ft</td><td>8</td></tr>
+      <tr><td>IT-tábor</td><td>Augusztus 11-15</td><td>59 990 Ft</td><td>8
+    </table>
+	
+    <div class="register-container">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeB2Q9SVDEa0IbvzIxQgo00_vEfxsXdppNkRf-a9etKComwuA/viewform?usp=dialog" class="register-button">Jelentkezés!</a>
+    </div>
+	<p>*A táborokat egy minimális jelentkezési szám fölött tudjuk indítani.</p>
+  </section>
+
+  <section id="youtube">
+    <h2>Ízelítő a táborról!</h2>
+    <div class="youtube-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6F-e5CQcrfk?si=gbdmLD5EyVIXwuaO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>GY.I.K.?</h2>
+    <article>
+      <h3 onclick="toggleArticle('faq1')">Lehet készpénzzel fizetni?<span id="icon-faq1">▼</span></h3>
+      <p id="faq1" class="hidden">Elfogadunk készpénzes fizetést, ezen igényüket a jelentkezési kérdőíven jelezhetik.</p>
+    </article>
+    <article>
+      <h3 onclick="toggleArticle('faq2')">Kell laptopot vinni?<span id="icon-faq2">▼</span></h3>
+      <p id="faq2" class="hidden">Nem tudjuk megígérni mindenkinek a laptop biztosítását, így kérjük hozzanak magukkal (az egységesség érdekében lehetőleg Windows 10/11 operációs rendszerrel, ha esetleg másmilyen van, semmi gond, megoldjuk!)</p>
+    </article>
+    <article>
+      <h3 onclick="toggleArticle('faq3')">Mi az a TET?<span id="icon-faq3">▼</span></h3>
+      <p id="faq3" class="hidden">Tóth Erzsébet Terv. Tóth Erzsébet, szerető nagymama, akinek minden álma az volt, hogy gyermekeket taníthasson, tudást adhasson át. A kommunista időkben viszont ellehetetlenítették, hogy ezen a pályán dolgozhasson. Az Ő tiszteletére és emlékének őrzéseként kapta a program az elnevezést.</p>
+    </article>
+    <article>
+      <h3 onclick="toggleArticle('faq4')">Mentességekkel, allergiákkal kapcsolatban?<span id="icon-faq4">▼</span></h3>
+      <p id="faq4" class="hidden">A jelentkezési kérdőíven mindenképpen jelezzék, amennyiben a résztvevő allergiás, mentes ételt fogyaszt. Mindenki számára biztosítani szeretnénk a megfelelő ételellátást, amennyiben ez veszélybe kerülne, időben felvesszük Önökkel a kapcsolatot.</p>
+    </article>
+    <article>
+      <h3 onclick="toggleArticle('faq5')">Más kérdésem van!<span id="icon-faq5">▼</span></h3>
+      <p id="faq5" class="hidden">Egyéb kérdés esetén bátran forduljanak hozzánk, e-mail (tetcamps@gmail.com), telefon, messneger/instagram üzenetben is!</p>
+    </article>
+  </section>
+  <section>
+  
+  </section>
+</body>
+</html>
